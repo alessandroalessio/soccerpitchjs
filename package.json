@@ -1,0 +1,28 @@
+{
+	"name": "soccerpitchjs",
+	"version": "1.0.0",
+	"description": "Simple script to create a soccer pitche with 11 players",
+	"private": true,
+	"mode": "production",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "webpack"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/alessandroalessio/soccerpitchjs.git"
+	},
+	"keywords": [
+		"soccer"
+	],
+	"author": "Alessandro Alessio",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/alessandroalessio/soccerpitchjs/issues"
+	},
+	"homepage": "https://github.com/alessandroalessio/soccerpitchjs#readme",
+	"devDependencies": {
+		"webpack": "^5.82.1",
+		"webpack-cli": "^5.1.1"
+	}
+}

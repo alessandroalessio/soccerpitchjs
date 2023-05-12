@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Soccer Pitch Example</title>
+		<script src="SoccerPitch.js"></script>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="manutd"></div>
+		<script>
+			let ManUtd = new SoccerPitchJS('manutd', {
+				goalkeeper: 'De Gea',
+				defender: 'Rudiger,Smalling,Romagnoli',
+				midfielder: 'De Bruyne,Camavinga,Kroos',
+				forwarder: 'Rashford',
+			});
+			ManUtd.create();
+		</script>
+	</body>
+</html>
